@@ -31,7 +31,7 @@ label.Size = UDim2.new(0, 324, 0, 53)
 label.Font = Enum.Font.GothamBold
 label.Text = "Dragon Ball N 2023 [V5.0]"
 label.TextColor3 = Color3.fromRGB(255, 255, 255)
-label.TextSize = 27.000
+label.TextSize = 25.000
  
 FreezeScript.Name = "Freeze Script"
 FreezeScript.Parent = main
@@ -508,7 +508,7 @@ NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.BackgroundColor3 = Color3.fromRGB(0, 0
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Position = UDim2.new(0, 0, 0.443677247, 0)
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Size = UDim2.new(0, 326, 0, 50)
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Font = Enum.Font.GothamBold
-NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Text = "NO FACE  [REMOVE IT ON ANY FORM FIRST AND THEN  GO BASE!!!]"
+NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Text = "NO FACE [Go any form then go base after.]"
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.TextColor3 = Color3.fromRGB(255, 255, 255)
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.TextSize = 14.000
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.MouseButton1Down:connect(function()
@@ -521,7 +521,7 @@ RemoveStunPressItIFSomeoneGlitchedyou.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 RemoveStunPressItIFSomeoneGlitchedyou.Position = UDim2.new(0, 0, 0.551958919, 0)
 RemoveStunPressItIFSomeoneGlitchedyou.Size = UDim2.new(0, 327, 0, 56)
 RemoveStunPressItIFSomeoneGlitchedyou.Font = Enum.Font.GothamBold
-RemoveStunPressItIFSomeoneGlitchedyou.Text = "Remove Stun [Press It IF Someone Glitched you]"
+RemoveStunPressItIFSomeoneGlitchedyou.Text = "Remove Stun"
 RemoveStunPressItIFSomeoneGlitchedyou.TextColor3 = Color3.fromRGB(255, 255, 255)
 RemoveStunPressItIFSomeoneGlitchedyou.TextSize = 19.000
 RemoveStunPressItIFSomeoneGlitchedyou.MouseButton1Down:connect(function()
