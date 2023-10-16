@@ -26,6 +26,7 @@ main.Draggable = true
 label.Name = "label"
 label.Parent = main
 label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+label.BorderColor3 = Color3.fromRGB(255, 255, 255)
 label.Position = UDim2.new(0, 0, 0, 0)
 label.Size = UDim2.new(1, 0, 0, 53)
 label.Font = Enum.Font.GothamBold
