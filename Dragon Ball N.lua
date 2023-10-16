@@ -36,7 +36,7 @@ label.TextSize = 25.000
 FreezeScript.Name = "Freeze Script"
 FreezeScript.Parent = main
 FreezeScript.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-FreezeScript.Position = UDim2.new(0.00306748459, 0, 0.115483403, 0)
+FreezeScript.Position = UDim2.new(0, 0, 0.115483403, 0)
 FreezeScript.Size = UDim2.new(0, 325, 0, 50)
 FreezeScript.Font = Enum.Font.GothamBold
 FreezeScript.Text = "Freeze Script"
@@ -531,7 +531,7 @@ end)
 RefreshButton.Name = "Refresh Button"
 RefreshButton.Parent = main
 RefreshButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-RefreshButton.Position = UDim2.new(0.00306748459, 0, 0.666496396, 0)
+RefreshButton.Position = UDim2.new(0, 0, 0.666496396, 0)
 RefreshButton.Size = UDim2.new(0, 327, 0, 56)
 RefreshButton.Font = Enum.Font.GothamBold
 RefreshButton.Text = "Refresh Button"
