@@ -30,7 +30,7 @@ label.BorderColor3 = Color3.fromRGB(255, 255, 255)
 label.Position = UDim2.new(0, 0, 0, 0)
 label.Size = UDim2.new(1, 0, 0, 53)
 label.Font = Enum.Font.GothamBold
-label.Text = "Dragon Ball N 2023 [V5.0]"
+label.Text = "Dragon Ball N 2023 [V1.0]"
 label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextSize = 25.000
  
