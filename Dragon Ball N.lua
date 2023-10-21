@@ -5,7 +5,7 @@ local FreezeScript = Instance.new("TextButton")
 local NoCooldownPressIt = Instance.new("TextButton")
 local SMALLEXPLORER01PressIt = Instance.new("TextButton")
 local label_2 = Instance.new("TextLabel")
-local label_3 = Instance.new("TextLabel")
+local label_3 = Instance.new("TextButton")
 local NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE = Instance.new("TextButton")
 local RemoveStunPressItIFSomeoneGlitchedyou = Instance.new("TextButton")
 local RefreshButton = Instance.new("TextButton")
@@ -493,20 +493,23 @@ label_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
 label_2.Position = UDim2.new(0, 0, 0.891207397, 0)
 label_2.Size = UDim2.new(1, 0, 0, 49)
 label_2.Font = Enum.Font.ArialBold
-label_2.Text = "Gui By [christophet5700] [DBN BETA ONLY]"
+label_2.Text = "Gui By [x_selever] [DBN BETA ONLY]"
 label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 label_2.TextSize = 16.000
  
-label_3.Name = "label"
+label_3.Name = "Infinite Yield"
 label_3.Parent = main
 label_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 label_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
 label_3.Position = UDim2.new(0, 0, 0.791142464, 0)
 label_3.Size = UDim2.new(1, 0, 0, 45)
 label_3.Font = Enum.Font.ArialBold
-label_3.Text = "???"
+label_3.Text = "Infinite Yield"
 label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-label_3.TextSize = 25.000
+label_3.TextSize = 20.000
+label_3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
  
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Name = "NO FACE  [REMOVE IT ON ANY FORM FIRST AND THEN  GO BASE!!!]"
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Parent = main
