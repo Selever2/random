@@ -1,3 +1,5 @@
+--To whoever found this, i stole it from christophet5700 then revamped the whole thing
+--Version: 1.0
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local label = Instance.new("TextLabel")
