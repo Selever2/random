@@ -5,7 +5,7 @@ local FreezeScript = Instance.new("TextButton")
 local NoCooldownPressIt = Instance.new("TextButton")
 local SMALLEXPLORER01PressIt = Instance.new("TextButton")
 local label_2 = Instance.new("TextLabel")
-local label_3 = Instance.new("TextButton")
+local label_3 = Instance.new("TextLabel")
 local NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE = Instance.new("TextButton")
 local RemoveStunPressItIFSomeoneGlitchedyou = Instance.new("TextButton")
 local RefreshButton = Instance.new("TextButton")
@@ -507,8 +507,6 @@ label_3.Font = Enum.Font.ArialBold
 label_3.Text = "???"
 label_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 label_3.TextSize = 25.000
-label_3.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
  
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Name = "NO FACE  [REMOVE IT ON ANY FORM FIRST AND THEN  GO BASE!!!]"
 NOFACEREMOVEITONANYFORMFIRSTANDTHENGOBASE.Parent = main
